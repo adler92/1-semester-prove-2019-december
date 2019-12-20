@@ -7,7 +7,7 @@ public class MainTest extends TestCase {
 
         Main m = new Main();
 
-        m.hello("András!");
+       // m.hello("András!");
 
         assertEquals("Hello András!", m.hello("András"));
 
