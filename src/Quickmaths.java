@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -6,6 +8,17 @@
  */
 
 public class Quickmaths {
+
+
+
+        Scanner scanner = new Scanner(System.in);
+
+
+        }
+
+
+
+
 
 
 }
