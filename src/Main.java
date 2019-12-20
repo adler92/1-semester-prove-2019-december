@@ -16,7 +16,7 @@ public class Main {
         }
 
         else {
-            return "Hello" + navn;
+            return "Hello " + navn + "!";
         }
 
 

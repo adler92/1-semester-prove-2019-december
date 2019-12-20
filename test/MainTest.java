@@ -3,9 +3,11 @@ import junit.framework.TestCase;
 public class MainTest extends TestCase {
 
 
-    public void testHelloAndras() {
+    public void testHello() {
 
         Main m = new Main();
+
+        m.hello("András!");
 
         assertEquals("Hello András!", m.hello("András"));
 
