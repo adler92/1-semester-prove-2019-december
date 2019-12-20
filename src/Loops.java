@@ -34,8 +34,6 @@ public class Loops {
         for (String astring : strings) {
 
             System.out.print(astring + " ");
-
-
         }
     }
 
@@ -49,7 +47,6 @@ public class Loops {
         for (int i = 4; i >= 0; i--) {
             System.out.print(strings[i] + " ");
         }
-
     }
 
     public void waitingFor0() {
