@@ -11,29 +11,39 @@ public class Quickmaths {
 
     public static void main(String[] args) {
 
-            int num1 = 1;
-            int num2 ;
-int sum = num1 + num2;
-            System.out.println("**** Quickmaths ****");
-            Scanner input = new Scanner(System.in);
+        int num1 = 1;
+        int num2;
 
-            while (num1 != -1) {
-                System.out.print("Indtast A: ");
-                num1 = input.nextInt();
+        System.out.println("**** Quickmaths ****");
+        Scanner input = new Scanner(System.in);
 
-                System.out.print("Indtast B: ");
-                num2 = input.nextInt();
+        while (num1 != -1) {
+            System.out.print("Indtast A: ");
+            num1 = input.nextInt();
 
-                System.out.println("Sum: " + (num1 + num2));
+            System.out.print("Indtast B: ");
+            num2 = input.nextInt();
 
-                int sum1 = num1 + num2;
+            System.out.println("Sum: " + (num1 + num2));
 
-                System.out.println("Gennemsnit: " + (sum1 / 2));
+            int sum1 = num1 + num2;
 
-                System.out.println("------------");
-            }
+            System.out.println("Gennemsnit: " + (sum1 / 2));
+
+            System.out.println("------------");
+        }
 
 
     }
 
+    public int gennemsnit(int a, int b) {
+        int y = a + b;
+        return y / 2;
+
+    }
+
+    public int sum(int a, int b) {
+        return a + b;
+
+    }
 }
